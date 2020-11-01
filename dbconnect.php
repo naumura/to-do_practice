@@ -29,3 +29,5 @@ class DbManager
 
     }
 }
+
+// dbconnect.php → データベースへのアクセスコード
