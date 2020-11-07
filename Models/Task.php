@@ -1,8 +1,10 @@
 <?php
 
+            // ()のなかにフォルダ名/ファイル名を記載
 require_once('Model.php');
 
 class Task extends Model
+// extendはclassの継承を行う→connectする
 {
     // プロパティ
     protected $table = 'tasks';
