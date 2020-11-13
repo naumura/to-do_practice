@@ -7,7 +7,7 @@ require_once('function.php');
 // 2. データの受け取り
 $id = $_GET['id'];
 
-// 3. DBへのデータ保存
+// 3. DBへのデータ保存 (呼び出す側) $idは引数
 $task = (new Task())->findById($id);
 
 ?>

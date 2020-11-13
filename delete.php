@@ -6,6 +6,7 @@ require_once('Models/Task.php');
 
 // 2. データの受け取り
 $id = $_POST['id'];
+// var_dump($id);
 
 // 3. DBからデータの削除
 $task = new Task();
@@ -15,3 +16,8 @@ $task->delete([$id]);
 header('location: index.php');
 exit;
 
+// function hello(){
+
+// }
+
+// hello();
